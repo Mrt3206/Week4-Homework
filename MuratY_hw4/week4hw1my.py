@@ -80,7 +80,5 @@ buttondiv.grid(column=2, row=3, padx=5, pady=5)
 buttonexit=Button(calwindfram,text="exit",width=5,height=2,command=lambda:calwind.quit())
 buttonexit.grid(column=2, row=4, sticky=tk.W, padx=5, pady=5)
 
-result_label = Label(calwindfram, text="Result :"+str(result))
-result_label.grid(column=0, row=2, sticky=tk.W, padx=5, pady=5) 
-print(num1str_entry.get(),num2str_entry.get())
+
 calwind.mainloop()
